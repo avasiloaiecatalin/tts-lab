@@ -1,0 +1,30 @@
+{
+  "name": "tts-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avasiloaiecatalin/tts-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avasiloaiecatalin/tts-lab/issues"
+  },
+  "homepage": "https://github.com/avasiloaiecatalin/tts-lab#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^4.10.0",
+    "@google-cloud/text-to-speech": "^3.4.0",
+    "@google-cloud/vision": "^2.4.2",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
